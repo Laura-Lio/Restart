@@ -1,0 +1,151 @@
+/* ----------- For screens 768px and larger ----------- */
+@media (min-width: 768px) {
+
+
+}
+
+/* ----------- For screens 1200px wide and larger----------- */
+@media (min-width: 1200px) {
+
+
+
+}
+
+
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.container{
+	max-width: 1200px;
+}
+
+body, .container, header, .top-section, .bottom-section, footer, header nav ul li {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+h1,
+h2,
+h3 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 30px;
+}
+h2 {
+	font-size: 18px;
+}
+h3 {
+	font-size: 12px;
+}
+
+p {
+	font-size: 14px;
+	line-height: 21px;
+    padding: 0 30px;
+}
+
+/*The widths are in a percentage!*/
+header {
+	height: auto;
+	border-bottom: 3px solid #77a466;
+	width: 100%;
+	text-align: center;
+}
+
+header h1 span {
+	color: #77a466;
+	width: 100%;
+}
+
+
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	width: 100%;
+	text-align: center;
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+}
+
+/*The widths are in a percentage!*/
+
+
+.main-image img {
+	width: 100%;
+	border-bottom: 3px solid #77a466;
+}
+
+
+.main-title h2 {
+	text-align: left;
+	color: #77a466;
+}
+.main-title p {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	width: 100%;
+	border-top: 1px solid #eee;
+	text-align: left;
+}
+
+
+
+.section-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+
+
+.menu {
+	list-style: none;
+	text-align: left;
+}
+.menu li {
+	color:#77a466;
+	text-align: left;
+}
+
+.reviews {
+	color: #333;
+	font-size: 16px;
+	line-height: 21px;
+}
+
+.address {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/*The widths are in a percentage!*/
+footer {
+	height: 50px;
+	border-top: 3px solid #eee;
+	margin: 0 auto;
+	text-align: center;
+}
+footer span {
+	font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 14px;
+}
