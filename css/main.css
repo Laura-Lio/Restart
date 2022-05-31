@@ -1,15 +1,22 @@
 /* ----------- For screens 768px and larger ----------- */
 @media (min-width: 768px) {
+	.bottom-section{
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		flex-flow: nowrap;
+		}
 
+.review, .meun, .address {
+	padding: 5px;
 
 }
 
 /* ----------- For screens 1200px wide and larger----------- */
 @media (min-width: 1200px) {
-
-
-
+	
 }
+
 
 html {
 	font-size: 16px;
@@ -31,12 +38,17 @@ body, .container, header, .top-section, .bottom-section, footer, header nav ul l
 	flex-flow: row wrap;
 }
 
+
 h1,
 h2,
 h3 {
 	color: black;
 	text-transform: uppercase;
 	font-weight: 700;
+}
+
+.bottom-section {
+	width: 100%;
 }
 
 h1 {
@@ -47,7 +59,6 @@ h1 {
 }
 h2 {
 	font-size: 1.125em;
-	text-align: center;
 }
 
 h3 {
@@ -57,7 +68,6 @@ h3 {
 p {
 	font-size: .875em;
 	line-height: 21px;
-    padding: 0 30px;
 }
 
 /*The widths are in a percentage!*/
@@ -76,11 +86,15 @@ nav {
 	width: 100%;
 }
 
+ul{
+	padding: 0px;
+}
+
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 0.875em;
-	padding: 5px; 
+	padding: 10px; 
 }
 header nav ul li a{
 	text-decoration: none;
@@ -97,7 +111,6 @@ header nav ul li a{
 
 
 .main-title h2 {
-	text-align: left;
 	color: #77a466;
 }
 .main-title p {
@@ -105,30 +118,36 @@ header nav ul li a{
 	line-height: 25px;
 }
 
+
 .section-one,
 .section-two,
 .section-three {
 	border-top: 1px solid #eee;
 	text-align: left;
-	width: 90%;
+	width: 100%;
 }
 
-
-
+p, h3, li{
+	padding:0px;
+}
 
 .menu {
 	list-style: none;
 	text-align: left;
+	width: 100%;
 }
 .menu li {
 	color:#77a466;
 	text-align: left;
+	padding: 10px;
 }
+
 
 .reviews {
 	color: #333;
 	font-size: 1em;
 	line-height: 21px;
+	padding: 0px;
 }
 
 .address {
