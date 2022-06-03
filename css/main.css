@@ -170,16 +170,11 @@ footer span {
 	.section-two {
 		border-right: 1px solid #eee;
 		border-left: 1px solid #eee;
-		border-top: none;
 	}
 
 	.section-one, .section-two, .section-three {
 		padding: 1%;
-	}
-	
-	.section-one,
-	.section-three{
-		border-top: none;
+		border-left: 1px solid #eee;
 	}
 }
 
@@ -190,7 +185,6 @@ footer span {
 
 	h1{
 		display: flex;
-		float: left;
 		border-bottom: none;
 		width: 30%;
 		padding: 0%;
