@@ -159,19 +159,24 @@ footer span {
 @media (min-width: 768px) {
 	.bottom-section{
 		justify-content: center;
-		align-items: center;
 		display: flex;
 		flex-flow: nowrap;
 		border-top: 1px solid #eee;
 		border-bottom: 1px solid #eee;
 		height: 30%;
+		align-items: baseline;
 		}
 
-	.section-one,
 	.section-two {
 		border-right: 1px solid #eee;
+		border-left: 1px solid #eee;
+		border-top: none;
 	}
 
+	.section-one, .section-two, .section-three {
+		padding: 1%;
+	}
+	
 	.section-one,
 	.section-three{
 		border-top: none;
@@ -182,14 +187,36 @@ footer span {
 /* ----------- For screens 1200px wide and larger----------- */
 @media (min-width: 1200px) {
 	
-	header, nav{
-	display: block;
-	}
+
 	h1{
+		display: flex;
 		float: left;
 		border-bottom: none;
+		width: 30%;
+		padding: 0%;
 	}
 	header nav {
-		float: right;
+		width: 44%;
 	}
+
+	nav ul{
+		display: flex;
+	}
+
+	header {
+	display: flex;
+	justify-content: space-between;
+	}
+	
+	.bottom-section {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-around;
+	}
+
+	.section-one, .section-two, .section-three {
+		padding: 1%;
+	}
+
+
 }
